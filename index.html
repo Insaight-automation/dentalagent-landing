@@ -3,100 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insaight Dental Clinic - AI-Powered Smiles in California</title>
+    <title>Insaight Dental Clinic - AI-Powered Family Dentistry</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Insaight Dental Clinic</h1>
-            <p>AI-Powered Family Dentistry Creating Beautiful Smiles</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#locations">Locations</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#offers">Offers</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <p class="phone">Call Us: (800) 123-4567</p>
+            <div class="header-inner">
+                <div class="logo">Insaight Dental Clinic</div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#offers">Offers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="phone-cta">
+                    <span>Call Us: <strong>(800) 123-4567</strong></span>
+                    <a href="tel:8001234567" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section id="hero" class="hero">
-        <div class="container">
-            <h2>Boost Your Confidence with AI-Assisted Dental Care</h2>
-            <p>Secure your smile with implants, aligners, and more – powered by Insaight AI.</p>
-            <button onclick="demoVoiceAgent()">Try AI Voice Booking</button>
-            <p>Emergency Care Available 7 Days a Week. Call (855) 987-6543.</p>
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1>Boost Your Confidence with AI-Assisted Dental Care</h1>
+            <p>Secure your smile with implants, clear aligners, whitening, and more – powered by Insaight AI technology.</p>
+            <div class="hero-ctas">
+                <a href="#contact" class="btn btn-primary large">Schedule Appointment</a>
+                <button class="btn btn-secondary large" onclick="demoVoiceAgent()">Try AI Voice Booking</button>
+            </div>
+            <p class="emergency">Emergency Care Available 7 Days a Week • Call (855) 987-6543</p>
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="about" class="section">
         <div class="container">
             <h2>Welcome to Insaight Dental Clinic</h2>
-            <p>We provide high-quality, AI-enhanced dental care in a friendly environment. From preventive checkups to cosmetic enhancements, our team is here for you.</p>
-            <a href="#locations">See Our Locations</a>
+            <p>We provide high-quality, AI-enhanced dental care in a friendly environment. From preventive checkups to advanced cosmetic and restorative treatments, our team is dedicated to creating beautiful, healthy smiles across California.</p>
+            <a href="#locations" class="btn btn-outline">See Our Locations</a>
         </div>
     </section>
 
-    <section id="services" class="services">
+    <section id="services" class="section services">
         <div class="container">
             <h2>Featured Services</h2>
-            <ul>
-                <li>Dental Implants</li>
-                <li>Clear Aligners</li>
-                <li>Teeth Whitening</li>
-                <li>Crowns & Veneers</li>
-                <li>Wisdom Teeth Extractions</li>
-                <li>AI Virtual Consultations</li>
-            </ul>
-            <a href="#">See All Services</a>
+            <div class="services-grid">
+                <div class="service-item">Dental Implants</div>
+                <div class="service-item">Clear Aligners</div>
+                <div class="service-item">Teeth Whitening</div>
+                <div class="service-item">Crowns & Veneers</div>
+                <div class="service-item">Wisdom Teeth Extractions</div>
+                <div class="service-item">AI Virtual Consultations</div>
+            </div>
+            <a href="#" class="btn btn-primary center">See All Services</a>
         </div>
     </section>
 
-    <section id="locations" class="locations">
+    <section id="locations" class="section">
         <div class="container">
             <h2>Our Locations in California</h2>
-            <ul>
-                <li>Los Angeles: 123 Main St, LA, CA 90001 - (213) 456-7890</li>
-                <li>San Francisco: 456 Elm St, SF, CA 94102 - (415) 789-0123</li>
-                <li>San Diego: 789 Oak St, SD, CA 92101 - (619) 012-3456</li>
-            </ul>
+            <div class="locations-grid">
+                <div class="location">
+                    <h3>Los Angeles</h3>
+                    <p>123 Main St, Los Angeles, CA 90001<br>(213) 456-7890</p>
+                </div>
+                <div class="location">
+                    <h3>San Francisco</h3>
+                    <p>456 Elm St, San Francisco, CA 94102<br>(415) 789-0123</p>
+                </div>
+                <div class="location">
+                    <h3>San Diego</h3>
+                    <p>789 Oak St, San Diego, CA 92101<br>(619) 012-3456</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="testimonials" class="testimonials">
+    <section id="reviews" class="section reviews">
         <div class="container">
             <h2>Patient Reviews</h2>
-            <blockquote>"Amazing service! The AI booking made it so easy." - Jane D.</blockquote>
-            <blockquote>"Professional and friendly staff." - John S.</blockquote>
-            <blockquote>"Transformed my smile with their implants." - Emily R.</blockquote>
+            <div class="review-grid">
+                <blockquote>"Amazing service! The AI booking made it so easy." – Jane D.</blockquote>
+                <blockquote>"Professional and friendly staff. Transformed my smile!" – John S.</blockquote>
+                <blockquote>"The implants look natural – highly recommend Insaight!" – Emily R.</blockquote>
+            </div>
         </div>
     </section>
 
-    <section id="offers" class="offers">
+    <section id="offers" class="section offers">
         <div class="container">
             <h2>Special Offers</h2>
             <ul>
-                <li>Veneers Special: $978 (Includes Free Exam) - Expires Apr 30, 2026</li>
-                <li>Implant Package: $2,800 (Free CT Scan) - $75/Month Financing</li>
-                <li>Clear Aligners: $3,950 Intro Price</li>
+                <li>Veneers Special: Starting at $978 (Free Exam Included)</li>
+                <li>Dental Implants: $2,800 Package (Free CT Scan + Financing)</li>
+                <li>Clear Aligners: Intro Price $3,950</li>
             </ul>
-            <p>Terms apply. Approved credit required.</p>
-            <a href="#">View All Offers</a>
+            <p>Terms apply. Call for details and eligibility.</p>
+            <a href="#contact" class="btn btn-primary center">Claim Offer</a>
         </div>
     </section>
 
     <footer id="contact">
         <div class="container">
             <p>&copy; 2026 Insaight Dental Clinic. All rights reserved.</p>
-            <p>Email: info@dentalagent.insaight.ai | Domain: dentalagent.insaight.ai</p>
+            <p>Email: info@dentalagent.insaight.ai | <a href="https://dentalagent.insaight.ai">dentalagent.insaight.ai</a></p>
+            <p>Call: (800) 123-4567 • Emergency: (855) 987-6543</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        function demoVoiceAgent() {
+            alert("Demo: Launching Insaight AI Voice Agent for instant booking... (Widget embed placeholder)");
+        }
+    </script>
 </body>
 </html>
